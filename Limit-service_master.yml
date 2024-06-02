@@ -3,3 +3,11 @@ profile:
 limits:
   min: 505555
   max: 55555555
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+    endpoint:
+      refresh:
+        enabled: true

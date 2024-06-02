@@ -2,3 +2,11 @@
 limits:
   min: 50
   max: 500
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+    endpoint:
+      refresh:
+        enabled: true
